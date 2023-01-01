@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap");
+
+$colors: (
+  main: #000000,
+  secondary: #ffffff,
+);
+
+@mixin media-max-width($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+$font-family: "Archivo", sans-serif;
+
+@mixin display-flex() {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+#main-body {
+  @include display-flex();
+  justify-content: right;
+
+  @include media-max-width(75rem) {
+    flex-direction: column;
+  }
+
+  #main-body_sec--one {
+    margin: 150px;
+    margin-top: 0px;
+    width: 400px;
+    margin-bottom: 0px;
+  }
+
+  #img-logo {
+    padding-top: 30px;
+
+    @include media-max-width(75rem) {
+      padding-bottom: 30px;
+    }
+  }
+
+  #img-tablet {
+    display: none;
+
+    @include media-max-width(75rem) {
+      display: block;
+    }
+  }
+
+  #main-body_head-word--one {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-family: $font-family;
+    font-weight: 1000;
+    font-size: 2.5em;
+
+    @include media-max-width(75rem) {
+      margin-top: 35px;
+      width: 600px;
+      font-size: 3em;
+    }
+  }
+
+  #tablet {
+    @include media-max-width(75rem) {
+      width: 500px;
+      padding-left: 65px;
+    }
+  }
+
+  .main-body_prag-word--one {
+    font-family: $font-family;
+    font-size: 0.9em;
+
+    @include media-max-width(75rem) {
+      width: 500px;
+    }
+  }
+
+  .prag-flex {
+    @include display-flex();
+  }
+
+  .main-body_prag-word--two {
+    font-family: $font-family;
+    margin: 8px;
+    margin-left: 10px;
+  }
+
+  .main-body_prag-word--three {
+    font-family: $font-family;
+    margin-top: 25px;
+    margin-bottom: 6px;
+  }
+
+  #img-hero {
+    width: 37.5rem;
+    height: 40.3rem;
+
+    @include media-max-width(75rem) {
+      display: none;
+    }
+  }
+
+  #main-body_head-word--two {
+    color: map-get($colors, secondary);
+    background-color: map-get($colors, main);
+    font-family: $font-family;
+    padding: 15px 5px 5px 5px;
+    width: 185px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+}

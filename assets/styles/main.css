@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap");
+body {
+  margin: 0; }
+
+#main-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: right; }
+  @media (max-width: 75rem) {
+    #main-body {
+      flex-direction: column; } }
+  #main-body #main-body_sec--one {
+    margin: 150px;
+    margin-top: 0px;
+    width: 400px;
+    margin-bottom: 0px; }
+  #main-body #img-logo {
+    padding-top: 30px; }
+    @media (max-width: 75rem) {
+      #main-body #img-logo {
+        padding-bottom: 30px; } }
+  #main-body #img-tablet {
+    display: none; }
+    @media (max-width: 75rem) {
+      #main-body #img-tablet {
+        display: block; } }
+  #main-body #main-body_head-word--one {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 1000;
+    font-size: 2.5em; }
+    @media (max-width: 75rem) {
+      #main-body #main-body_head-word--one {
+        margin-top: 35px;
+        width: 600px;
+        font-size: 3em; } }
+  @media (max-width: 75rem) {
+    #main-body #tablet {
+      width: 500px;
+      padding-left: 65px; } }
+  #main-body .main-body_prag-word--one {
+    font-family: "Archivo", sans-serif;
+    font-size: 0.9em; }
+    @media (max-width: 75rem) {
+      #main-body .main-body_prag-word--one {
+        width: 500px; } }
+  #main-body .prag-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+  #main-body .main-body_prag-word--two {
+    font-family: "Archivo", sans-serif;
+    margin: 8px;
+    margin-left: 10px; }
+  #main-body .main-body_prag-word--three {
+    font-family: "Archivo", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 6px; }
+  #main-body #img-hero {
+    width: 37.5rem;
+    height: 40.3rem; }
+    @media (max-width: 75rem) {
+      #main-body #img-hero {
+        display: none; } }
+  #main-body #main-body_head-word--two {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Archivo", sans-serif;
+    padding: 15px 5px 5px 5px;
+    width: 185px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
