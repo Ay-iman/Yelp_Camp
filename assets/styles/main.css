@@ -42,7 +42,7 @@ body {
         width: 37rem; } }
     @media (max-width: 26rem) {
       #main-body #img-tablet {
-        width: 414px;
+        width: 409px;
         height: 325px;
         object-fit: cover; } }
     @media (max-width: 20.5rem) {
