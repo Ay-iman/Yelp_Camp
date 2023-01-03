@@ -21,7 +21,7 @@ body {
       #main-body #main-body_sec--one {
         margin-left: 0;
         margin-right: 0;
-        height: 1150px; } }
+        height: 1000px; } }
   #main-body #img-logo {
     padding-top: 1.875rem; }
     @media (max-width: 75rem) {
@@ -129,6 +129,6 @@ body {
     justify-content: center;
     margin-right: 80px; }
   #main-body #img-last--head {
-    width: 80px; }
+    width: 115px; }
 
 /*# sourceMappingURL=main.css.map */

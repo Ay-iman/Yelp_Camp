@@ -44,7 +44,7 @@ body {
     @include media-max-width(26rem) {
       margin-left: 0;
       margin-right: 0;
-      height: 1150px;
+      height: 1000px;
     }
   }
 
@@ -183,6 +183,6 @@ body {
   }
 
   #img-last--head {
-    width: 80px;
+    width: 115px;
   }
 }
