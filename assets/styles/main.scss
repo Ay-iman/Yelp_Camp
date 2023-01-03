@@ -33,16 +33,26 @@ body {
   }
 
   #main-body_sec--one {
-    margin: 150px;
+    margin: 9.3rem 9.3rem 9.3rem 5.6rem;
     margin-top: 0px;
-    width: 400px;
+    width: 25rem;
     margin-bottom: 0px;
+
+    @include media-max-width(26rem) {
+      margin-left: 0;
+    }
   }
 
   #img-logo {
-    padding-top: 30px;
+    padding-top: 1.875rem;
 
     @include media-max-width(75rem) {
+      padding-bottom: 1.875rem;
+    }
+    @include media-max-width(26rem) {
+      width: 110px;
+      padding-top: 0.9rem;
+      padding-left: 0.9rem;
       padding-bottom: 30px;
     }
   }
@@ -53,26 +63,48 @@ body {
     @include media-max-width(75rem) {
       display: block;
     }
+    @include media-max-width(56rem) {
+      width: 37rem;
+    }
+    @include media-max-width(26rem) {
+      width: 407px;
+      height: 325px;
+      object-fit: cover;
+    }
+    @include media-max-width(20.5rem) {
+      width: 300px;
+      height: 325px;
+      object-fit: cover;
+    }
   }
 
   #main-body_head-word--one {
-    margin-top: 90px;
-    margin-bottom: 10px;
+    margin-top: 5.6rem;
+    margin-bottom: 0.6rem;
     font-family: $font-family;
     font-weight: 1000;
     font-size: 2.5em;
 
     @include media-max-width(75rem) {
-      margin-top: 35px;
-      width: 600px;
+      margin-top: 2.1875rem;
+      width: 37rem;
       font-size: 3em;
+    }
+
+    @include media-max-width(26rem) {
+      margin-top: 15px;
+      font-size: 2em;
+      width: 250px;
     }
   }
 
   #tablet {
     @include media-max-width(75rem) {
-      width: 500px;
-      padding-left: 65px;
+      width: 31rem;
+      padding-left: 4rem;
+    }
+    @include media-max-width(26rem) {
+      padding-left: 25px;
     }
   }
 
@@ -81,7 +113,10 @@ body {
     font-size: 0.9em;
 
     @include media-max-width(75rem) {
-      width: 500px;
+      width: 31rem;
+    }
+    @include media-max-width(26rem) {
+      width: 300px;
     }
   }
 
@@ -89,16 +124,26 @@ body {
     @include display-flex();
   }
 
+  #img-checkmark {
+    @include media-max-width(26rem) {
+      width: 17px;
+    }
+  }
+
   .main-body_prag-word--two {
     font-family: $font-family;
-    margin: 8px;
+    margin: 0.5rem;
     margin-left: 10px;
+
+    @include media-max-width(26rem) {
+      font-size: 12px;
+    }
   }
 
   .main-body_prag-word--three {
     font-family: $font-family;
-    margin-top: 25px;
-    margin-bottom: 6px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
   }
 
   #img-hero {
@@ -114,11 +159,14 @@ body {
     color: map-get($colors, secondary);
     background-color: map-get($colors, main);
     font-family: $font-family;
-    padding: 15px 5px 5px 5px;
-    width: 185px;
-    height: 35px;
-    border-radius: 5px;
+    padding: 0.9rem 0.3rem 0.3rem 0.3rem;
+    width: 11rem;
+    height: 2.1rem;
+    border-radius: 0.3rem;
     text-align: center;
-  }
 
+    @include media-max-width(26rem) {
+      margin-top: 10px;
+    }
+  }
 }
