@@ -19,7 +19,9 @@ body {
     margin-bottom: 0px; }
     @media (max-width: 26rem) {
       #main-body #main-body_sec--one {
-        margin-left: 0; } }
+        margin-left: 0;
+        margin-right: 0;
+        height: 1150px; } }
   #main-body #img-logo {
     padding-top: 1.875rem; }
     @media (max-width: 75rem) {
@@ -71,7 +73,8 @@ body {
       padding-left: 4rem; } }
   @media (max-width: 26rem) {
     #main-body #tablet {
-      padding-left: 25px; } }
+      padding-left: 25px;
+      width: 300px; } }
   #main-body .main-body_prag-word--one {
     font-family: "Archivo", sans-serif;
     font-size: 0.9em; }
