@@ -43,7 +43,7 @@ body {
         width: 37rem; } }
     @media (max-width: 26rem) {
       #main-body #img-tablet {
-        width: 407px;
+        width: 380px;
         height: 325px;
         object-fit: cover; } }
     @media (max-width: 20.5rem) {
@@ -121,5 +121,14 @@ body {
     @media (max-width: 26rem) {
       #main-body #main-body_head-word--two {
         margin-top: 10px; } }
+  #main-body #span-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px; }
+  #main-body #img-last--head {
+    width: 80px; }
 
 /*# sourceMappingURL=main.css.map */

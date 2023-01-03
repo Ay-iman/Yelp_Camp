@@ -72,7 +72,7 @@ body {
       width: 37rem;
     }
     @include media-max-width(26rem) {
-      width: 407px;
+      width: 380px;
       height: 325px;
       object-fit: cover;
     }
@@ -174,5 +174,15 @@ body {
     @include media-max-width(26rem) {
       margin-top: 10px;
     }
+  }
+
+  #span-head {
+    @include display-flex();
+    justify-content: center;
+    margin-right: 80px;
+  }
+
+  #img-last--head {
+    width: 80px;
   }
 }
