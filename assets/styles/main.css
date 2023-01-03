@@ -45,11 +45,6 @@ body {
         width: 409px;
         height: 325px;
         object-fit: cover; } }
-    @media (max-width: 24rem) {
-      #main-body #img-tablet {
-        width: 385px;
-        height: 325px;
-        object-fit: cover; } }
     @media (max-width: 20.5rem) {
       #main-body #img-tablet {
         width: 300px;
