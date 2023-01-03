@@ -73,7 +73,7 @@ body {
   @media (max-width: 26rem) {
     #main-body #tablet {
       padding-left: 25px;
-      width: 300px; } }
+      width: 290px; } }
   #main-body .main-body_prag-word--one {
     font-family: "Archivo", sans-serif;
     font-size: 0.9em; }
