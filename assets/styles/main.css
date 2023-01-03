@@ -21,7 +21,7 @@ body {
       #main-body #main-body_sec--one {
         margin-left: 0;
         margin-right: 0;
-        height: 1000px; } }
+        height: 700px; } }
   #main-body #img-logo {
     padding-top: 1.875rem; }
     @media (max-width: 75rem) {
@@ -43,7 +43,7 @@ body {
         width: 37rem; } }
     @media (max-width: 26rem) {
       #main-body #img-tablet {
-        width: 380px;
+        width: 414px;
         height: 325px;
         object-fit: cover; } }
     @media (max-width: 20.5rem) {

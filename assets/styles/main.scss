@@ -44,7 +44,7 @@ body {
     @include media-max-width(26rem) {
       margin-left: 0;
       margin-right: 0;
-      height: 1000px;
+      height: 700px;
     }
   }
 
@@ -72,7 +72,7 @@ body {
       width: 37rem;
     }
     @include media-max-width(26rem) {
-      width: 380px;
+      width: 414px;
       height: 325px;
       object-fit: cover;
     }
