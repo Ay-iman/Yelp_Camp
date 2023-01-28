@@ -110,7 +110,8 @@ body {
   #tablet {
     @include media-max-width(780px) {
       width: 80vw;
-      padding-left: 4rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
     }
     // @include media-max-width(26rem) {
     //   padding-left: 25px;
