@@ -20,66 +20,71 @@ $font-family: "Archivo", sans-serif;
   display: flex;
 }
 
-
-
 body {
   margin: 0;
+  width: 100%;
 }
 
 #main-body {
   @include display-flex();
-  justify-content: right;
+  justify-content: space-between;
 
-  @include media-max-width(75rem) {
+  @include media-max-width(780px) {
     flex-direction: column;
   }
 
   #main-body_sec--one {
-    margin: 9.3rem 9.3rem 9.3rem 5.6rem;
+    padding-left: 30px;
     margin-top: 0px;
     width: 25rem;
     margin-bottom: 0px;
 
-    @include media-max-width(26rem) {
-      margin-left: 0;
-      margin-right: 0;
-      height: 700px;
+    @include media-max-width(780px) {
+      padding-left: 0px;
+      width: 0;
     }
+    // @include media-max-width(26rem) {
+    //   margin-left: 0;
+    //   margin-right: 0;
+    //   height: 700px;
+    // }
   }
 
   #img-logo {
     padding-top: 1.875rem;
 
-    @include media-max-width(75rem) {
+    @include media-max-width(780px) {
       padding-bottom: 1.875rem;
     }
-    @include media-max-width(26rem) {
-      width: 110px;
-      padding-top: 0.9rem;
-      padding-left: 0.9rem;
-      padding-bottom: 30px;
-    }
+    // @include media-max-width(26rem) {
+    //   width: 110px;
+    //   padding-top: 0.9rem;
+    //   padding-left: 0.9rem;
+    //   padding-bottom: 30px;
+    // }
   }
 
   #img-tablet {
     display: none;
 
-    @include media-max-width(75rem) {
+    @include media-max-width(780px) {
       display: block;
+      width: 94vw;
+      margin-left: 15px;
     }
-    @include media-max-width(56rem) {
-      width: 37rem;
-    }
-    @include media-max-width(26rem) {
-      width: 409px;
-      height: 325px;
-      object-fit: cover;
-    }
-    @include media-max-width(20.5rem) {
-      width: 300px;
-      height: 325px;
-      object-fit: cover;
-    }
+    // @include media-max-width(56rem) {
+    //   width: 37rem;
+    // }
+    // @include media-max-width(26rem) {
+    //   width: 409px;
+    //   height: 325px;
+    //   object-fit: cover;
+    // }
+    // @include media-max-width(20.5rem) {
+    //   width: 300px;
+    //   height: 325px;
+    //   object-fit: cover;
+    // }
   }
 
   #main-body_head-word--one {
@@ -89,40 +94,40 @@ body {
     font-weight: 1000;
     font-size: 2.5em;
 
-    @include media-max-width(75rem) {
+    @include media-max-width(780px) {
       margin-top: 2.1875rem;
-      width: 37rem;
+      width: 100%;
       font-size: 3em;
     }
 
-    @include media-max-width(26rem) {
-      margin-top: 15px;
-      font-size: 2em;
-      width: 250px;
-    }
+    // @include media-max-width(26rem) {
+    //   margin-top: 15px;
+    //   font-size: 2em;
+    //   width: 250px;
+    // }
   }
 
   #tablet {
-    @include media-max-width(75rem) {
-      width: 31rem;
+    @include media-max-width(780px) {
+      width: 80vw;
       padding-left: 4rem;
     }
-    @include media-max-width(26rem) {
-      padding-left: 25px;
-      width: 290px;
-    }
+    // @include media-max-width(26rem) {
+    //   padding-left: 25px;
+    //   width: 290px;
+    // }
   }
 
   .main-body_prag-word--one {
     font-family: $font-family;
     font-size: 0.9em;
 
-    @include media-max-width(75rem) {
-      width: 31rem;
+    @include media-max-width(780px) {
+      width: 80vw;
     }
-    @include media-max-width(26rem) {
-      width: 300px;
-    }
+    // @include media-max-width(26rem) {
+    //   width: 300px;
+    // }
   }
 
   .prag-flex {
@@ -130,9 +135,9 @@ body {
   }
 
   #img-checkmark {
-    @include media-max-width(26rem) {
-      width: 17px;
-    }
+    // @include media-max-width(26rem) {
+    //   width: 17px;
+    // }
   }
 
   .main-body_prag-word--two {
@@ -140,9 +145,9 @@ body {
     margin: 0.5rem;
     margin-left: 10px;
 
-    @include media-max-width(26rem) {
-      font-size: 12px;
-    }
+    // @include media-max-width(26rem) {
+    //   font-size: 12px;
+    // }
   }
 
   .main-body_prag-word--three {
@@ -152,10 +157,10 @@ body {
   }
 
   #img-hero {
-    width: 37.5rem;
-    height: 40.3rem;
+    width: 50vw;
+    height: 100vh;
 
-    @include media-max-width(75rem) {
+    @include media-max-width(780px) {
       display: none;
     }
   }
@@ -170,9 +175,9 @@ body {
     border-radius: 0.3rem;
     text-align: center;
 
-    @include media-max-width(26rem) {
-      margin-top: 10px;
-    }
+    // @include media-max-width(26rem) {
+    //   margin-top: 10px;
+    // }
   }
 
   #span-head {

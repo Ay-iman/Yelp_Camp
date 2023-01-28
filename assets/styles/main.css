@@ -1,111 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap");
 body {
-  margin: 0; }
+  margin: 0;
+  width: 100%; }
 
 #main-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: right; }
-  @media (max-width: 75rem) {
+  justify-content: space-between; }
+  @media (max-width: 780px) {
     #main-body {
       flex-direction: column; } }
   #main-body #main-body_sec--one {
-    margin: 9.3rem 9.3rem 9.3rem 5.6rem;
+    padding-left: 30px;
     margin-top: 0px;
     width: 25rem;
     margin-bottom: 0px; }
-    @media (max-width: 26rem) {
+    @media (max-width: 780px) {
       #main-body #main-body_sec--one {
-        margin-left: 0;
-        margin-right: 0;
-        height: 700px; } }
+        padding-left: 0px;
+        width: 0; } }
   #main-body #img-logo {
     padding-top: 1.875rem; }
-    @media (max-width: 75rem) {
+    @media (max-width: 780px) {
       #main-body #img-logo {
         padding-bottom: 1.875rem; } }
-    @media (max-width: 26rem) {
-      #main-body #img-logo {
-        width: 110px;
-        padding-top: 0.9rem;
-        padding-left: 0.9rem;
-        padding-bottom: 30px; } }
   #main-body #img-tablet {
     display: none; }
-    @media (max-width: 75rem) {
+    @media (max-width: 780px) {
       #main-body #img-tablet {
-        display: block; } }
-    @media (max-width: 56rem) {
-      #main-body #img-tablet {
-        width: 37rem; } }
-    @media (max-width: 26rem) {
-      #main-body #img-tablet {
-        width: 409px;
-        height: 325px;
-        object-fit: cover; } }
-    @media (max-width: 20.5rem) {
-      #main-body #img-tablet {
-        width: 300px;
-        height: 325px;
-        object-fit: cover; } }
+        display: block;
+        width: 94vw;
+        margin-left: 15px; } }
   #main-body #main-body_head-word--one {
     margin-top: 5.6rem;
     margin-bottom: 0.6rem;
     font-family: "Archivo", sans-serif;
     font-weight: 1000;
     font-size: 2.5em; }
-    @media (max-width: 75rem) {
+    @media (max-width: 780px) {
       #main-body #main-body_head-word--one {
         margin-top: 2.1875rem;
-        width: 37rem;
+        width: 100%;
         font-size: 3em; } }
-    @media (max-width: 26rem) {
-      #main-body #main-body_head-word--one {
-        margin-top: 15px;
-        font-size: 2em;
-        width: 250px; } }
-  @media (max-width: 75rem) {
+  @media (max-width: 780px) {
     #main-body #tablet {
-      width: 31rem;
+      width: 80vw;
       padding-left: 4rem; } }
-  @media (max-width: 26rem) {
-    #main-body #tablet {
-      padding-left: 25px;
-      width: 290px; } }
   #main-body .main-body_prag-word--one {
     font-family: "Archivo", sans-serif;
     font-size: 0.9em; }
-    @media (max-width: 75rem) {
+    @media (max-width: 780px) {
       #main-body .main-body_prag-word--one {
-        width: 31rem; } }
-    @media (max-width: 26rem) {
-      #main-body .main-body_prag-word--one {
-        width: 300px; } }
+        width: 80vw; } }
   #main-body .prag-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex; }
-  @media (max-width: 26rem) {
-    #main-body #img-checkmark {
-      width: 17px; } }
   #main-body .main-body_prag-word--two {
     font-family: "Archivo", sans-serif;
     margin: 0.5rem;
     margin-left: 10px; }
-    @media (max-width: 26rem) {
-      #main-body .main-body_prag-word--two {
-        font-size: 12px; } }
   #main-body .main-body_prag-word--three {
     font-family: "Archivo", sans-serif;
     margin-top: 1.5rem;
     margin-bottom: 0.3rem; }
   #main-body #img-hero {
-    width: 37.5rem;
-    height: 40.3rem; }
-    @media (max-width: 75rem) {
+    width: 50vw;
+    height: 100vh; }
+    @media (max-width: 780px) {
       #main-body #img-hero {
         display: none; } }
   #main-body #main-body_head-word--two {
@@ -117,9 +82,6 @@ body {
     height: 2.1rem;
     border-radius: 0.3rem;
     text-align: center; }
-    @media (max-width: 26rem) {
-      #main-body #main-body_head-word--two {
-        margin-top: 10px; } }
   #main-body #span-head {
     display: -webkit-box;
     display: -ms-flexbox;
