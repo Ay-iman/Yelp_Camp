@@ -47,7 +47,8 @@ body {
   @media (max-width: 780px) {
     #main-body #tablet {
       width: 80vw;
-      padding-left: 4rem; } }
+      padding-right: 2rem;
+      padding-left: 2rem; } }
   #main-body .main-body_prag-word--one {
     font-family: "Archivo", sans-serif;
     font-size: 0.9em; }
