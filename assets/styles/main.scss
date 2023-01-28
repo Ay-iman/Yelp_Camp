@@ -160,7 +160,7 @@ body {
 
   #img-hero {
     width: 50vw;
-    height: 100vh;
+    height: 100%;
 
     @include media-max-width(780px) {
       display: none;

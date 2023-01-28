@@ -71,7 +71,7 @@ body {
     margin-bottom: 0.3rem; }
   #main-body #img-hero {
     width: 50vw;
-    height: 100vh; }
+    height: 100%; }
     @media (max-width: 780px) {
       #main-body #img-hero {
         display: none; } }
